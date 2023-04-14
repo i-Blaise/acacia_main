@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .nav > .nav-header {
+    display: flex;
+    margin-right: auto;
+    margin-left: 6.5rem;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F3534A;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  /* .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 14px;
+    margin-right: 6.5rem;
+  } */
+
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 14px;
+    margin-right: 0;
+    background: #683191;
+    height: 200px;
+    width: 34.3vw;
+}
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #ECEAFF;
+    border-radius: 10px;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav {
+      border-bottom: 1px solid #332A86;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+    }
+    .nav > .nav-header {
+      margin-left: 1.5rem;
+    }
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50px;
+      height: 30px;
+      padding: 13px;
+      margin-top: 15px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: transparent;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #332A86;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #fff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 97px;
+      left: 0px;
+      box-shadow: 0 114px 83px -30px rgba(0, 0, 0, 0.1);
+    }
+    .nav > .nav-links > a {
+      display: flex;
+      justify-content: center;
+      width: 83%;
+      padding: 25px 34px 0px;
+      font-size: 24px;
+      color: #332A86;
+  }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+  }
+  }
+
+#main-wrapper{
+  height: 100vh;
+}
+.inner-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left-col_wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 55.8vw;
+    padding: 8rem;
+}
+.left-col_h2 {
+    font-size: 30px;
+    color: #683191;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.left-col_p {
+    color: #683191;
+}
+.left-col_a {
+    text-decoration: none;
+    background: #683191;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.left-col_a:hover{
+    background: #fff;
+    color: #683191;
+    border: 2px solid #683191;
+}
+.right-col_wrapper {
+  height: 100vh;
+  width: 40vw;
+  background: #683191;;
+}
+.acacia-card {
+  width: 350px;
+}
+.dr-acacia{
+  position: absolute;
+  top: 150px;
+  right: 27%;
+}
+.acacia-card_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 250px;
+}
+
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.disabled {
+  display: none !important;
+}
+.nav-link-pos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+.nav-link-pos a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 20px;
+}
+
+/* Responsive Css */
+@media (max-width: 767px){
+  body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  .inner-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0 auto;
+  }
+    .left-col_wrapper {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      width: auto;
+      padding: 7rem 2rem;
+  }
+  .right-col_wrapper {
+    height: auto;
+    width: 100vw;
+    max-width: 100vw;
+    background: #683191;
+  }
+  .acacia-card_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .dr-acacia {  
+    position: relative;
+    top: 100px;
+    right: 40px;
+    width: 250px;
+  }
+  .bottom-image_wrapper {
+    text-align: end;
+    display: none;
+  }
+  .bottom-image {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 250px;
+    width: auto;
+  }
+  .acacia-card {
+    position: relative;
+    bottom: 324px;
+    width: 220px;
+    left: 97px;
+  }
+  .left-col_h2 {
+    font-size: 24px;
+  }
+  .nav-link-pos {
+    display: none;
+}
+}
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+  .inner-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0 auto;
+  }
+    .left-col_wrapper {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      width: auto;
+      padding: 7rem 2rem;
+  }
+  .right-col_wrapper {
+    height: auto;
+    width: 100vw;
+    max-width: 100vw;
+    background: #683191;
+  }
+  .acacia-card_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .dr-acacia {
+    position: relative;
+    top: 100px;
+    right: 0px;
+    width: 350px;
+}
+  .bottom-image_wrapper {
+    text-align: end;
+    display: none;
+  }
+  .bottom-image {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    max-width: 250px;
+    width: auto;
+  }
+  .acacia-card {
+    position: relative;
+    bottom: 445px;
+    width: 500px;
+    left: 135px;
+}
+  .left-col_h2 {
+    font-size: 24px;
+  }
+  .nav > .nav-links {
+    display: none;
+}
+.nav-link-pos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.nav-link-pos a {
+  text-decoration: none;
+  color: #683191;
+  padding-right: 20px;
+}
+.nav > .nav-header {
+  display: flex;
+  margin-right: auto;
+  margin-left: 0;
+}
+}

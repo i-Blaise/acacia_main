@@ -1,0 +1,15 @@
+[05-Aug-2022 13:03:12 America/Boise] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/DatabaseCon.php on line 13
+[05-Aug-2022 13:03:12 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/AdminClass.php:15
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/AdminClass.php(15): mysqli_query(false, 'SELECT results ...')
+#1 /home1/acaciah1/public_html/quiz/Admin/index.php(5): adminClass->fetchResultLessThan30()
+#2 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/AdminClass.php on line 15
+[05-Aug-2022 13:17:46 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:19:08 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:19:28 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:20:03 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:20:04 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:20:06 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:22:53 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164
+[05-Aug-2022 13:23:28 America/Boise] PHP Warning:  Undefined variable $resultGreaterThn70 in /home1/acaciah1/public_html/quiz/Admin/index.php on line 164

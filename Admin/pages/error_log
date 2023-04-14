@@ -1,0 +1,134 @@
+[31-Oct-2022 15:27:21 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 15:27:25 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 15:27:36 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 15:56:23 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 15:56:29 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 15:59:18 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:10:47 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:12:41 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:12:46 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:13:44 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:15:00 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:15:03 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:15:05 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 74
+[31-Oct-2022 16:15:38 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:15:39 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:15:40 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:15:42 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:18:27 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:23:23 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[31-Oct-2022 16:52:13 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 03:49:16 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 03:53:41 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 03:53:50 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 04:34:29 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 04:38:48 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[01-Nov-2022 10:16:56 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[05-Nov-2022 13:50:10 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[05-Nov-2022 14:05:06 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[11-Nov-2022 00:38:58 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:38:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:39:07 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:39:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:40:51 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:40:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:41:31 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:41:31 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:41:47 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:41:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:42:01 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:42:01 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:06 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:06 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:07 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:54 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:55 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:43:55 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:44:41 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:44:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:44:42 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:44:42 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:05 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:06 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:06 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:07 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:46:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:47:31 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[11-Nov-2022 00:47:31 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_list.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[12-Nov-2022 08:35:10 America/Boise] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[12-Nov-2022 08:35:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php:9
+Stack trace:
+#0 /home1/acaciah1/public_html/quiz/Admin/pages/blog_cms.php(2): require_once()
+#1 {main}
+  thrown in /home1/acaciah1/public_html/quiz/Admin/ClassLibraries/MainClass.php on line 9
+[12-Nov-2022 08:39:13 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[12-Nov-2022 15:51:48 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[20-Nov-2022 08:40:07 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73
+[20-Nov-2022 08:41:15 America/Boise] PHP Warning:  Undefined variable $uploadStatus in /home1/acaciah1/public_html/quiz/Admin/pages/blogs.php on line 73

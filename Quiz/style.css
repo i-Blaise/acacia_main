@@ -1,0 +1,181 @@
+body {
+    background: url(images/Resound@2x.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+   font-family: 'Poppins', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#msform {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#progressbar {
+    margin-top: 90px;
+}
+fieldset {
+    width: 55vw;
+    height: 475px;
+    background: #fff;
+    border: 0;
+    border-radius: 15px;
+    padding: 30px 60px;
+}
+h2 {
+    color: #683191;
+    font-size: 34px;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+.row {
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+span.btn {
+    font-size: 16px;
+    color: #683191;
+}
+.btns {
+    margin: 20px auto;
+}
+input[type=button], button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background: #F3534A;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 40px;
+    color: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    opacity: 1;
+    animation: fadeInLeft;
+    animation-duration: 1s;
+  }
+  input[type=button]:hover {
+    color: #F3534A;
+    border-radius: 5px;
+    border: 2px solid #F3534A;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 40px;
+    background: white;
+    cursor: pointer;
+    -webkit-appearance: none;
+    opacity: 1;
+  }
+  input[type="radio"] {
+    transform: scale(.7);
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: initial;
+    border: 2px solid #683191;
+    border-radius: 50%;
+    left: 22px;
+    cursor: pointer;
+  }
+  input[type="radio"]:checked {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: #683191;
+    position: initial;
+    left: 22px;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  input.next.action-button, .next {
+    position: absolute!important;
+    left: 68%!important;
+  }
+  #progressbar li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 5px solid #683191;
+    border-radius: 100%;
+    position: absolute;
+    top: 50px;
+    left: 21%;
+    font-size: 36px;
+    font-weight: 600;
+    color: #683191;
+    animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 6s; /* don't forget to set a duration! */
+  --animate-delay: 6s;
+}
+
+/* Mobile Css */
+@media (max-width: 767px) {
+    fieldset {
+        width: 80vw;
+        height: 550px;
+        padding: 30px 30px;
+        margin-bottom: 40px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    span.btn {
+        font-size: 16px;
+    }
+    input.next.action-button, .next {
+        position: absolute!important;
+        left: 60%!important;
+    }
+    #msform {
+        height: 100vh;
+    }
+  }
+  
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    fieldset {
+        width: 80vw;
+        height: 550px;
+        padding: 30px 30px;
+        margin-bottom: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    span.btn {
+        font-size: 16px;
+    }
+    input.next.action-button, .next {
+        position: absolute!important;
+        left: 74%!important;
+    }
+    #msform {
+        height: 100vh;
+    }
+    
+  }
+  

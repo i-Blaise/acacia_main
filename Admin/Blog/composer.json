@@ -1,0 +1,6 @@
+{
+    "require": {
+        "league/commonmark": "^2.3",
+        "tinymce/tinymce": "^6.2"
+    }
+}
