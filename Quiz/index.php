@@ -14,7 +14,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'Submit')
    // print_r($result);\
    die();
    }else{
-      // echo 'oops';
+      echo 'oops';
       print_r($result);
       die();
    }
