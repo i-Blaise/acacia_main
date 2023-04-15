@@ -25,7 +25,6 @@ class mainClass extends DataBase{
     {
         if(is_object($quizzAnswers) || is_array($quizzAnswers))
         {
-            return $_SESSION['phoneNum'];
             $phone_num = isset($_SESSION['phoneNum']) ? $_SESSION['phoneNum'] : NULL;
             $memberID = isset($_SESSION['memberID']) ? $_SESSION['memberID'] : NULL;
             $userName = isset($_SESSION['userName']) ? $_SESSION['userName'] : NULL;
