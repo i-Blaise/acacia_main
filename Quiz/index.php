@@ -228,6 +228,7 @@ if(isset($_POST['submit']) && $_POST['submit'] == 'Submit')
                     return true;
                 break;
                 default:
+//                   form taken out per clients request
                     var ids = ['location', 'date', 'name', 'email', 'phone'];
                     var err = [];
                     ids.forEach(function(id, i){
